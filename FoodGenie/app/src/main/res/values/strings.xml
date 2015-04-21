@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodGenie</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="info_header1">What type of cuisine are you looking for?</string>
+    <string name="info_header2">Any other words for Genie to look for?</string>
+    <string name="info_header3">Whats Genies price point?</string>
+    <string name="info_header4">How far should Genie look?</string>
+    <string name="info_header5">optional</string>
+    <string name="info_header6">mi.</string>
+
+    <string name="results_edit_review_link1">edit</string>
+
+    <string name="submit_query">Fulfill my wish!</string>
+
+    <string name="action_share">Share this</string>
+
+
+    <string-array name="food_price_points">
+        <item>""</item>
+        <item>Doesn\'t matter</item>
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+    <string-array name="food_categories">
+        <item>""</item>
+        <item>Doesn\'t matter</item>
+        <item>American</item>
+        <item>Breakfast</item>
+        <item>Burgers</item>
+        <item>Caribbean</item>
+        <item>Chinese</item>
+        <item>Deli</item>
+        <item>Dessert</item>
+        <item>Diner</item>
+        <item>French</item>
+        <item>Greek</item>
+        <item>Halal</item>
+        <item>Hawaiian</item>
+        <item>Healthy</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Kosher</item>
+        <item>Tapas</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Noodles</item>
+        <item>Organic</item>
+        <item>Pizza</item>
+        <item>Russian</item>
+        <item>Salads</item>
+        <item>Sandwiches</item>
+        <item>Seafood</item>
+        <item>Spanish</item>
+        <item>Sushi</item>
+        <item>Thai</item>
+        <item>Vegetarian</item>
+        <item>Vietnamese</item>
+        <item>Wings</item>
+    </string-array>
+
+</resources>

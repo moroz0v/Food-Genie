@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+        <LinearLayout
+            android:id="@+id/info_cuisine_types"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/InfoSearchCriteriaStyle">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_header1"
+                style="@style/InfoHeader"/>
+            <Spinner
+                android:id="@+id/food_categories"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/info_price_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/InfoSearchCriteriaStyle"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_header3"
+                style="@style/InfoHeader"/>
+            <Spinner
+                android:id="@+id/food_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/info_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/InfoSearchCriteriaStyle"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info_header4"
+                style="@style/InfoHeader"/>
+            <RadioGroup
+                android:id="@+id/info_distance_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/info_radio_none"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="doesn't matter"
+                    android:checked="false" />
+                <RadioButton
+                    android:id="@+id/info_radio_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 km."
+                    android:checked="false" />
+                <RadioButton
+                    android:id="@+id/info_radio_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 km."
+                    android:checked="false" />
+                <RadioButton
+                    android:id="@+id/info_radio_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 km."
+                    android:checked="false" />
+                </RadioGroup>
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/submit_query"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+ </LinearLayout>
