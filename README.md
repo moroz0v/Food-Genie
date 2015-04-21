@@ -26,6 +26,7 @@ You can add/remove reviews and blacklist a place. If you blacklist a place, it w
 4. UI gives an option to compare visited places but it doesn't work.
 5. UI can use some Material Design love.
 6. No real proper error handling.
+7. Using "Up" button on the Action Bar to go back to search parameter input and redoind search will yield results for previous parameters. Using regular "bacK" button doesn't have that issue.
 
 ###Special thanks to
 1. Volley plugin
