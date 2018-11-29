@@ -5,20 +5,20 @@ repositories {
 }
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion '20'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId 'morozovs.foodgenie'
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 28
         versionCode 1
         versionName '1.0'
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22'
-    compile 'com.google.code.gson:gson:2.3'
-    compile 'com.mcxiaoke.volley:library:1.0.15'
-    compile 'com.google.android.gms:play-services:7.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.mcxiaoke.volley:library:1.0.15'
+    implementation 'com.google.android.gms:play-services:12.0.1'
 }
