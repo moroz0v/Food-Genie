@@ -1,7 +1,9 @@
 # Food-Genie
 This app will use your geo location to suggest spots to eat nearby by using Google Places API and will track your feedback. Or if you are in the mood for something more specific, you can give Genie a few pointers and he will find something you and your friends can all agree on.
 
-###Features
+**please note: this project is over 7 years old, last updated 4 years ago and is no longer maintained**
+
+### Features
 This is what FoodGenie can do:
 
 ##### Suggesting places to eat
@@ -19,7 +21,7 @@ Keep track on places you went to by tapping "go here" button. Those places will 
 ##### Manage your places
 You can add/remove reviews and blacklist a place. If you blacklist a place, it won't show up in search results next time! You can un-blacklist a place or edit a place review from Visited Places as well.
 
-###Known Issues
+### Known Issues
 1. Once "go here" is pressed, back button closes the app.
 2. Back button persists on the Home Screen
 3. Larger screens aren't utilized to their full potential... Yet!
@@ -28,6 +30,6 @@ You can add/remove reviews and blacklist a place. If you blacklist a place, it w
 6. No real proper error handling.
 7. Using "Up" button on the Action Bar to go back to search parameter input and redoind search will yield results for previous parameters. Using regular "bacK" button doesn't have that issue.
 
-###Special thanks to
+### Special thanks to
 1. Volley plugin
 2. Google GSON plugin
